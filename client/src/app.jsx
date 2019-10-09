@@ -52,7 +52,7 @@ export default class App extends React.Component {
           </div>
           <Disconnected ref={el => this.disconnected = el}/>
           <h2><samp>{this.props.page.hostname}</samp></h2>
-          <div>Demo application version <i>{this.props.page.version}</i></div>
+          <div>Demo application version (modified) <i>{this.props.page.version}</i></div>
           <div>Serving on {addrs}</div>
         </div>
 
